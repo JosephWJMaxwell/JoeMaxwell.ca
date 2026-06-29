@@ -8,7 +8,6 @@
 
       <div class="links">
         <a :href="profile.linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a :href="`mailto:${profile.email}`">Email</a>
       </div>
     </section>
 
@@ -34,8 +33,7 @@ const profile = {
   title: "Software Developer",
   summary:
     "Building practical software with a focus on modern web development, clear UX, and reliable delivery.",
-  linkedin: "https://www.linkedin.com/in/josephwjmaxwell/",
-  email: "hello@joemaxwell.ca",
+  linkedin: "https://www.linkedin.com/in/joey-maxwell/",
 };
 
 const highlights = [
