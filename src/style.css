@@ -1,0 +1,89 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #e8edf6;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: #111a2e;
+  border: 1px solid #233252;
+  border-radius: 14px;
+  padding: 1.25rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #97abd1;
+  font-size: 0.9rem;
+}
+
+h1,
+h2 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.headline {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #d5dff3;
+}
+
+.summary {
+  margin-top: 0.75rem;
+  line-height: 1.5;
+  color: #c6d3ef;
+}
+
+.links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #8bc4ff;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #c6d3ef;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chips span {
+  background: #1a2741;
+  border: 1px solid #2d426b;
+  border-radius: 999px;
+  padding: 0.3rem 0.65rem;
+  font-size: 0.9rem;
+}
