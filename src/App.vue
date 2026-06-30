@@ -1,7 +1,6 @@
 <template>
   <main class="page">
     <section class="card">
-      <p class="eyebrow">JoeMaxwell.ca</p>
       <h1>{{ profile.name }}</h1>
       <p class="headline">{{ profile.title }}</p>
       <p class="summary">{{ profile.summary }}</p>
@@ -41,17 +40,17 @@ const profile = {
 
 const aboutSections = [
   {
-    title: "How you build",
+    title: "How I build",
     body:
       "I build with a focus on clarity, reliability, and usability. I like creating software that feels clean to use, is easy to maintain, and solves real problems without unnecessary complexity.",
   },
   {
-    title: "What people can expect from you",
+    title: "What people can expect from me",
     body:
       "People can expect thoughtful implementation, steady progress, and attention to detail. I care about writing maintainable code, communicating clearly, and building solutions that are practical and dependable.",
   },
   {
-    title: "Where you're growing",
+    title: "Where I'm growing",
     body:
       "I'm continuing to grow in cloud development, modern full-stack architecture, and building polished applications with strong foundations. I'm especially interested in deepening my work with Azure, .NET, front-end frameworks, and database-driven systems.",
   },
