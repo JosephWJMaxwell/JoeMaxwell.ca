@@ -8,9 +8,9 @@ Use the site to show **what Joe is about as a developer**, not to mirror a forma
 
 Potential profile sections to refine later:
 
-- **How you build** - clarity, reliability, usability, and maintainable solutions.
-- **What people can expect from you** - thoughtful implementation, steady progress, communication, and attention to detail.
-- **Where you're growing** - Azure, .NET, front-end frameworks, full-stack architecture, and database-driven systems.
+- **How I build** - clarity, reliability, usability, and maintainable solutions.
+- **What people can expect from me** - thoughtful implementation, steady progress, communication, and attention to detail.
+- **Where I'm growing** - Azure, .NET, front-end frameworks, full-stack architecture, and database-driven systems.
 
 ## Local development
 
