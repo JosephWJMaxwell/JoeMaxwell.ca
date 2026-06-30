@@ -1,7 +1,6 @@
 <template>
   <main class="page">
     <section class="card">
-      <p class="eyebrow">JoeMaxwell.ca</p>
       <h1>{{ profile.name }}</h1>
       <p class="headline">{{ profile.title }}</p>
       <p class="summary">{{ profile.summary }}</p>
