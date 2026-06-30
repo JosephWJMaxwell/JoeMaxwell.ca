@@ -40,6 +40,10 @@ h2 {
   margin-bottom: 0.75rem;
 }
 
+h3 {
+  margin: 0 0 0.5rem;
+}
+
 .headline {
   margin: 0;
   font-size: 1.15rem;
@@ -72,6 +76,24 @@ ul {
 
 li + li {
   margin-top: 0.5rem;
+}
+
+.about-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-block {
+  padding: 1rem;
+  background: #0d1527;
+  border: 1px solid #233252;
+  border-radius: 12px;
+}
+
+.about-block p {
+  margin: 0;
+  line-height: 1.6;
+  color: #c6d3ef;
 }
 
 .chips {
